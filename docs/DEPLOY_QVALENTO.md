@@ -188,3 +188,4 @@ Before deploying, read Google's release notes and the "Deploy with Docker & Goog
 | --- | --- | --- | --- |
 | `1.1.0` | 2026-11-19 | Google's release | Original deploy of Google's release 1.1.0 |
 | `1.1.0-qv1` | 2026-11-19 | `1d8bbe7` | Added `get_property_setup` |
+| `1.1.0-qv2` | 2026-11-19 | `2c9c689` | Added reporting identity, user-provided data, data sharing, integrations and event create/edit rules to `get_property_setup`; added `get_property_definitions` (calculated metrics, channel groups, audiences) |
