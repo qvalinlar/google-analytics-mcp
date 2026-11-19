@@ -1,5 +1,5 @@
 ---
-name: deploy-qvalento
+name: deploy-ga-mcp
 description: Deploys committed changes on the qvalento branch of the Google Analytics MCP server to Cloud Run (project qvalento-mcp, service google-analytics-mcp). Use only when the user explicitly asks to deploy, release or roll out a change to the GA4 MCP server.
 disable-model-invocation: true
 ---
