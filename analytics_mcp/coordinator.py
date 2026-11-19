@@ -38,6 +38,7 @@ from analytics_mcp.tools.admin.info import (
     list_property_annotations,
     create_property_annotation,
 )
+from analytics_mcp.tools.admin.setup import get_property_setup
 from analytics_mcp.tools.admin.config import (
     create_custom_dimension,
     create_key_event,
@@ -91,6 +92,7 @@ read_only_tools = [
     FunctionTool(list_property_annotations),
     FunctionTool(list_key_events),
     FunctionTool(get_custom_dimensions_and_metrics),
+    FunctionTool(get_property_setup),
     run_report_with_description,
     run_realtime_report_with_description,
     run_funnel_report_with_description,
