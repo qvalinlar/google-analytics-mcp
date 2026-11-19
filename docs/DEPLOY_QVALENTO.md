@@ -187,4 +187,4 @@ Before deploying, read Google's release notes and the "Deploy with Docker & Goog
 | Image tag | Date | Commit | What changed |
 | --- | --- | --- | --- |
 | `1.1.0` | 2026-11-19 | Google's release | Original deploy of Google's release 1.1.0 |
-| `1.1.0-qv1` | 2026-11-19 | | Added `get_property_setup` |
+| `1.1.0-qv1` | 2026-11-19 | `1d8bbe7` | Added `get_property_setup` |
